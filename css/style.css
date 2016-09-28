@@ -607,10 +607,7 @@ background:transparent !important;
 
 
 
-.button.color3:hover {
-	color: #A39161 !important;
-	border: solid 2px #A39161;
-}
+
 
 .button.btn-border {
 	background: transparent !important;
@@ -637,7 +634,14 @@ background:transparent !important;
 
 .button.color3 {
 	background: #A39161 !important;
-	border: solid 2px #A39161;
+	color: #f9f9f9 !important;
+	/*border: solid 2px #A39161;*/
+}
+
+.button.color3:hover {
+	background: #A39161 !important;
+	color: #f9f9f9 !important;
+	/*border: solid 2px #A39161;*/
 }
 
 .button.color4 {
