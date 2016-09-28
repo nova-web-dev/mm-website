@@ -791,11 +791,16 @@ background:transparent !important;
 }
 
 .dolla {
+  position: absolute;
   width: 100%;
-  height: auto;
+bottom: 0;
+left: 0;
   /*max-width: 100%;*/
   /*width: auto;*/
   display: inline-block;
+}
+.cs-relative{
+  position: relative;
 }
 
 .icon-edit{
