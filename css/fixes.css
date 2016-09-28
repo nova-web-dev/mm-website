@@ -1,5 +1,8 @@
 .navbar-toggle{
-  margin-right: 0px !important;
+  /*margin-right: 0px !important;*/
+}
+.navbar-logo{
+
 }
 
 
@@ -15,6 +18,13 @@
 
 }
 @media (max-width:961px) { /* tablet, landscape iPad, lo-res laptops ands desktops */
+
+}
+@media (max-width:767px) { /* Custom */
+  .navbar-logo{
+    display: none !important;
+  }
+
 
 }
 @media (max-width:641px) { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
