@@ -2,7 +2,12 @@
   /*margin-right: 0px !important;*/
 }
 .navbar-logo{
-
+  /*max-height: 100%;*/
+  max-width: 300px;
+  /*width: auto;*/
+}
+.navbar-brand{
+  /*padding: 0px !important;*/
 }
 
 
@@ -22,7 +27,10 @@
 }
 @media (max-width:767px) { /* Custom */
   .navbar-logo{
-    display: none !important;
+    /*display: none !important;*/
+  }
+  .navbar-brand{
+    padding: 0px !important;
   }
 
 
@@ -31,7 +39,14 @@
 
 }
 @media (max-width:481px) { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
-
+  .navbar-logo{
+    /*max-height: 100%;*/
+    max-width: 210px;
+    /*width: auto;*/
+  }
+  .navbar-brand{
+    padding-top: 5px !important;
+  }
 }
 @media (max-width:320px) { /* smartphones, iPhone, portrait 480x320 phones */
 

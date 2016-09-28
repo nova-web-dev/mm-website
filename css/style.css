@@ -6318,10 +6318,6 @@ text-transform: uppercase;
     right: 0;
 }
 
-.navbar-toggle {
-    margin-right: 72px !important;
-}
-
 .project-item {
     width: 100%;
     float: left;
@@ -6424,7 +6420,6 @@ font-size: 11px;
 
 .navbar-toggle {
     margin-top: 14px;
-    margin-right: 0;
 }
 
 #header-main .navbar-nav > li > a {
