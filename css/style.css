@@ -30,7 +30,7 @@
 .page-wrapper-blue {
 	background-color:#001845;
 	padding-top: 30px;
-	padding-bottom: 30px; 
+	padding-bottom: 30px;
 	/*margin-bottom:50px;*/
 }
 .enroll-lead-left-white-scholarship {
@@ -149,7 +149,7 @@ body {
 
 body {
 	font-family: Open Sans,'Helvetica Neue',Arial,sans-serif;
-	background: #f9f9f9 url("../images/pattern/pattern11.png") fixed; 
+	background: #f9f9f9 url("../images/pattern/pattern11.png") fixed;
 }
 
 a {
@@ -773,7 +773,7 @@ background:transparent !important;
 }
 
 .right .social-c1 a:hover {
-	opacity:0.5;	
+	opacity:0.5;
 }
 
 .button.simple {
@@ -791,9 +791,11 @@ background:transparent !important;
 }
 
 .dolla {
-	position: absolute;
-    right: 0;
-    bottom: 0;
+  width: 100%;
+  height: auto;
+  /*max-width: 100%;*/
+  /*width: auto;*/
+  display: inline-block;
 }
 
 .icon-edit{
@@ -1434,7 +1436,7 @@ iframe {
 
 .full-contact {
     padding: 0px 100px 20px 100px;
-    
+
 
 }
 
@@ -2178,7 +2180,7 @@ margin-left:85px;
 }
 
 #accordion-e1 .panel-body p,
-#accordion-e2 .panel-body p, 
+#accordion-e2 .panel-body p,
 #accordion-e3 .panel-body p {
 	margin: 0;
 }
@@ -2487,7 +2489,7 @@ margin-left:85px;
 	background: #A39161; /* fallback for old browsers */
 	background: -webkit-linear-gradient(to left, #C4B99A , #A39161); /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to left, #C4B99A , #A39161); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	
+
 }
 
 .parallax-bg4 {
@@ -5474,7 +5476,7 @@ color:#8dc73f;
 	position: absolute;
 	right: 0px;
 		transition:.4s;
-	
+
 	top: 50%;
 	margin-top: -22px;
 	transition: .4s;
@@ -5552,9 +5554,9 @@ font-weight:700;
 	height: 33px;
 
 	padding: 0 12px;
-	padding-left:40px;	
+	padding-left:40px;
 	background: #fafafa;
-	
+
 	border: 1px solid #e2e2e2;
 	border-top: 1px solid #d4d4d4;
 	outline: none;
@@ -5823,7 +5825,7 @@ top:2px;
 .ss-content-act {
 	visibility:visible;
 	opacity:1;
-}	
+}
 
 .ssc-inner {
 	height:100vh;
@@ -5950,7 +5952,7 @@ margin-right:5px;
 }
 
 
-@media screen and (-webkit-min-device-pixel-ratio:0) { 
+@media screen and (-webkit-min-device-pixel-ratio:0) {
 .ssc-inner form button {
     margin-top: -50px;
 }
@@ -5994,7 +5996,7 @@ margin-right:5px;
 .rating > span:hover ~ span:before {
    content: "\2605";
    position: absolute;
-   left: -2px; 
+   left: -2px;
    color: #8dc73f;
 }
 
