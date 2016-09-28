@@ -27,6 +27,9 @@
 
 /*END
 ===========================================================================*/
+.cs-hidden{
+  display: none;
+}
 .page-wrapper-blue {
 	background-color:#001845;
 	padding-top: 30px;
@@ -800,6 +803,12 @@ background:transparent !important;
 }
 .cs-relative{
   position: relative;
+}
+.img-five-reasons{
+  position: absolute;
+  right: 0;
+  height: 100%;
+  width: auto;
 }
 
 .icon-edit{
@@ -6228,6 +6237,8 @@ text-transform: uppercase;
 @media only screen and (min-width: 768px)  and (max-width: 959px)  {
 
 
+
+
 .nav-tabs li a {
     padding: 40px 5px;
     font-size: 12px;
@@ -6276,6 +6287,20 @@ text-transform: uppercase;
 }
 
 @media screen and (max-width: 767px) {
+
+  /*Media query Carl*/
+  /*.img-five-reasons{
+    width: 100%;
+    height: auto;
+    position: replative;
+    display: inline-block;
+  }*/
+  .hideOnMobile{
+    display: none;
+  }
+  .showOnMobile{
+    display: inline-block;
+  }
 
 .header-x {
     padding: 34px 0px 0px 15px;
