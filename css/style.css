@@ -239,7 +239,7 @@ body {
 
 body {
 	font-family: Open Sans,'Helvetica Neue',Arial,sans-serif;
-	background: #f9f9f9 url("../images/pattern/pattern11.png") fixed;
+	background: #f9f9f9;
 }
 
 a {
@@ -2620,14 +2620,22 @@ margin-left:85px;
 	/*background: url(../images/bg/parallax/5.jpg) no-repeat center center fixed !important;*/
 	/*position: relative;
 	background-size: cover !important;*/
-	border-bottom: solid 3px #A39161;
+	
 	background: #f9f9f9;
 	background-size: cover !important;
 	width: 100% !important;
 }
 
+.border-bottom-fix {
+	border-bottom: solid 3px #A39161;
+}
+
 .parallax-bg6 {
-	background: url(../images/bg/parallax/6.jpg) no-repeat center center fixed !important;
+	background: #870115; /* Old browsers */
+	background: -moz-linear-gradient(top, #870115 0%, #740012 44%, #56000d 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #870115 0%,#740012 44%,#56000d 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #870115 0%,#740012 44%,#56000d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#870115', endColorstr='#56000d',GradientType=0 ); /* IE6-9 */
 	position: relative;
 	background-size: cover !important;
 }
@@ -6614,6 +6622,7 @@ padding: 0 !important;
 	width:100%;
 	max-width:500px;
 	margin:0 auto;
+
 }
 
 aside {
