@@ -69,6 +69,9 @@
 	width: 100%;
 }
 
+.call-to-enrol{
+	width: 100%;
+}
 
 /*SECTION TITLES
 ===========================================================================*/
@@ -521,7 +524,7 @@ background:transparent !important;
 
 .slider-wrap {
     position: relative !important;
-    border-bottom: solid 3px #A39161;
+    /*border-bottom: solid 3px #A39161;*/
 }
 
 .inner-content {
@@ -2497,7 +2500,12 @@ margin-left:85px;
 }
 
 .parallax-bg1 {
-	background: url(../images/bg/parallax/1.jpg) no-repeat center center fixed !important;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#870115+0,740012+44,56000d+100 */
+	background: #870115; /* Old browsers */
+	background: -moz-linear-gradient(top, #870115 0%, #740012 44%, #56000d 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #870115 0%,#740012 44%,#56000d 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #870115 0%,#740012 44%,#56000d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#870115', endColorstr='#56000d',GradientType=0 ); /* IE6-9 */
 	position: relative;
 	background-size: cover !important;
 }
