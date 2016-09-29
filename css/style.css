@@ -25,6 +25,90 @@
 	src: url(Trajan_Pro_Bold.ttf);
 }
 
+/*Clock 
+===========================================================================*/
+
+#clockdiv{
+    font-family: sans-serif;
+    color: #f9f9f9;
+    display: inline-block;
+    /*font-weight: 100;*/
+    text-align: center;
+    /*font-size: 30px;*/
+    text-shadow: 0 5px 10px #000;
+    font-size: 70px;
+	font-weight: 200;
+}
+
+#clockdiv > div{
+
+    display: inline-block;
+}
+
+/*#clockdiv div > span{
+    padding: 15px;
+    border-radius: 3px;
+    background: #00816A;
+    display: inline-block;
+}*/
+
+.smalltext{
+    display: block;
+	font-size: 13px;
+	letter-spacing: 7px;
+	text-transform: uppercase;
+	font-weight: 600;
+	/*background: #8dc73f;*/
+	color: #fff;
+	display: table;
+	margin: 0 auto;
+	padding: 5px 12px 5px 19px;
+	text-align: center;
+	text-shadow: none;
+}
+
+.timer {
+	padding-top: 30px;
+	border-bottom: solid 3px #A39161;
+	margin-bottom: 0px !important;
+	padding-bottom: 40px;
+	width: 100%;
+}
+/*=======================================*/
+/*#clockdiv {
+	width: 100%;
+	max-width: 850px;
+	margin: -25px auto 0;
+	padding: 0 15px;
+}
+
+#clockdiv div {
+	width: 25%;
+	float: left;
+	color: #fff;
+	font-size: 100px;
+	font-weight: 300;
+	text-align: center;
+	text-shadow: 0 5px 10px #000;
+}
+
+#clockdiv div span {
+	display: block;
+	font-size: 13px;
+	letter-spacing: 7px;
+	text-transform: uppercase;
+	font-weight: 600;
+	background: #8dc73f;
+	color: #fff;
+	display: table;
+	margin: 0 auto;
+	padding: 5px 12px 5px 19px;
+	text-align: center;
+	text-shadow: none;
+}*/
+
+
+
 /*END
 ===========================================================================*/
 .cs-hidden{
@@ -6000,6 +6084,16 @@ margin-right:5px;
 	width:auto;
 }
 
+.dual-btns2 a {
+	display:inline-block;
+	margin:0 1px;
+	padding:0 30px;
+	width:200px;
+}
+
+.dual-btns2.auto-width a {
+	width:auto;
+}
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
 .ssc-inner form button {
