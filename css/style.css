@@ -1183,7 +1183,7 @@ background:transparent !important;
 }
 
 .page_header_parallax {
-	background: #000 url(../images/bg/p_header.jpg) no-repeat fixed center;
+	background: #000 url(../images/bg/b_header1.jpg) no-repeat fixed center;
 	background-size: cover;
 	padding: 80px 0 80px;
 }
