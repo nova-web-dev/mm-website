@@ -1183,9 +1183,9 @@ background:transparent !important;
 }
 
 .page_header_parallax {
-	background: #000 url(../images/bg/b_header1.jpg) no-repeat fixed center;
+	background: #000 url(../images/bg/b_header1.jpeg) no-repeat fixed center;
 	background-size: cover;
-	padding: 80px 0 80px;
+	padding: 150px 0 150px;
 }
 
 .page_header_parallax2 {
@@ -1201,9 +1201,9 @@ background:transparent !important;
 }
 
 .page_header_parallax4 {
-	background: #000 url(../images/bg/p_header4.jpg) no-repeat fixed center;
+	background: #000 url(../images/slider/3/2.jpg) no-repeat fixed center;
 	background-size: cover;
-	padding: 80px 0 80px;
+	padding: 120px 0 120px;
 }
 
 .page_header_parallax5 {
@@ -3008,7 +3008,7 @@ h2.post-title {
 }
 
 h2.post-title a {
-	color: #000;
+	color: #001845;
 }
 
 h2.post-title a:hover {
@@ -3943,7 +3943,7 @@ transition:.4s;
 
 .prevnext .left {
 	text-transform: uppercase;
-	color: #000;
+	color: #001845;
 	letter-spacing: 5px;
 	float: left;
 	font-size: 13px;
@@ -3951,11 +3951,26 @@ transition:.4s;
 
 .prevnext .right {
 	text-transform: uppercase;
-	color: #000;
+	color: #001845;
 	letter-spacing: 5px;
 	float: right;
 	font-size: 13px;
 }
+
+.prevnext:hover {
+
+	color: #A39161 !important;
+
+}
+
+.blog-content{
+	border-bottom: solid 3px #A39161;
+}
+
+.blog-content-all{
+	padding-right: 200px;
+}
+
 
 .comment-avatar {
 	width: 80px;
