@@ -192,9 +192,13 @@
     margin: auto;
     margin-bottom: 50px;
 }
+.line-blue{
+
+}
 
 .readmore {
 	color: #A39161;
+	text-align: right !important;
 }
 
 .principal-title-blue{
@@ -3724,7 +3728,7 @@ h2.title {
 	padding: 60px 0;
 	position: relative;
 	top: -25px;
-	
+
 }
 
 .pricing-table4#popular h6 {
