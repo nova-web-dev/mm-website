@@ -2601,9 +2601,7 @@ margin-left:85px;
 }
 
 .parallax-bg2 {
-	background: url(../images/bg/parallax/2.jpg) no-repeat center center fixed !important;
-	position: relative;
-	background-size: cover !important;
+	background: rgba(0,0,0,0);
 }
 
 .parallax-bg3 {
@@ -2647,9 +2645,9 @@ margin-left:85px;
 }
 
 #one-res .parallax-bg5 {
-	background: url(../images/onepage/3/5.jpg) no-repeat center center fixed !important;
-	position: relative;
-	background-size: cover !important;
+	background: (url(../images/onepage/3/5.jpg) no-repeat center center fixed !important;
+		position: relative;
+		background-size: cover !important;)
 }
 
 #one-res .parallax-bg6 {
