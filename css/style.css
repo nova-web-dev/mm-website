@@ -283,7 +283,7 @@ h6 {
 
 p {
 	margin-bottom: 17px;
-	font-size: 15px;
+	font-size: 16px;
 	line-height: 23px;
 	color: #878787;
 }
@@ -688,6 +688,8 @@ background:transparent !important;
 	border-radius: 0px;
 	display: table;
 	transition: .4s;
+	box-shadow: 0 1px 1px #000;
+
 }
 
 .button:hover {
@@ -3680,12 +3682,14 @@ h2.title {
 	border-top: 5px solid #001845;
 	padding: 35px 0;
 	margin: 0 -1px 0 0;
+
 }
 
 .pricing-table4 .title h2 {
 	font-size: 17px;
 	text-transform: uppercase;
 	margin: 0;
+
 }
 
 .pricing-table4 .title strong {
@@ -3720,6 +3724,7 @@ h2.title {
 	padding: 60px 0;
 	position: relative;
 	top: -25px;
+	
 }
 
 .pricing-table4#popular h6 {
@@ -6306,6 +6311,7 @@ border-top: 1px solid rgba(0, 0, 0, 0.07);
 }
 .price-title-white{
 	font-family: Trajan_Pro_Bold;
+
 	/*color: #001845;*/
 }
 .book-doctor {
