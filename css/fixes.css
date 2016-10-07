@@ -14,6 +14,9 @@
 
 /*=======MEDIA QUERIES=======*/
 @media (max-width:1281px) { /* hi-res laptops and desktops */
+    #testimonials-section{
+    height: 700px !important;
+  }
 
 }
 @media (max-width:1025px) { /* big landscape tablets, laptops, and desktops */
@@ -35,6 +38,8 @@
 
   #header-main-sticky-wrapper{
     height: 64px !important;
+  }
+
   }
 
 
