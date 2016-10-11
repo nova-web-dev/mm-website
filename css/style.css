@@ -34,6 +34,10 @@ img{ width:32.2%; }
 	width: 100%;
 }
 
+/*.testimonial-gold {
+	height: 270px;
+}*/
+
 
 @import 'settings-panel.css';
 
