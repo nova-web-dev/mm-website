@@ -30,6 +30,10 @@ img{ width:32.2%; }
   color:#fff;
 }
 
+.img-responsive {
+	width: 100%;
+}
+
 
 @import 'settings-panel.css';
 
@@ -348,7 +352,7 @@ ul, li {
 	width: 100%;
 	position: relative;
 	overflow: hidden;
-	background:#fff;
+	background:#f9f9f9;
 }
 
 .outer-wrapper.boxed {
