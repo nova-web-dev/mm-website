@@ -170,7 +170,7 @@ $(document).ready(function(){
 		//SCHOLARSHIP NAV SUBITEM
 	$("#scholarship-navsubbutton").click(function(){
 		$('html, body').animate({
-		scrollTop: $("#scholarship-section").offset().top
+		scrollTop: $("#fees-section").offset().top
 		}, 400);
 	});
 
